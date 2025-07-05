@@ -1,4 +1,4 @@
-from streamlit_monaco import st_monaco
+from streamlit_monaco_editor import st_monaco
 import streamlit as st
 
 st.title("Streamlit Markdown Editor")

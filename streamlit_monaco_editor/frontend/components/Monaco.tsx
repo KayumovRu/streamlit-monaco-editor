@@ -19,13 +19,11 @@ const Monaco = ({ args, theme }: ComponentProps) => {
 
   // Called on editor update
   const handleChange = (value: string | undefined) => {
-    if (value) {
       clearTimeout(timeout);
 
       timeout = setTimeout(() => {
-        updateStreamlit(value);
+        updateStreamlit(value ?? "");
       }, 200);
-    }
   };
 
   const resizeObserver = new ResizeObserver((entries: any) => {

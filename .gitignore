@@ -1,4 +1,4 @@
-streamlit_monaco/flags.py
+streamlit_monaco_editor/flags.py
 
 # Streamlit
 .streamlit/*
