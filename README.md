@@ -4,7 +4,7 @@ Monaco Editor (Visual Studio Code) for Streamlit
 
 ```This is a fork of the original component (fork was made on 5.07.2025 from version 0.1.3).```
 
-Changes in version 0.1.4:
+Changes in version 0.1.5:
 - key support
 - solution to the problem with clearing the editor value
 

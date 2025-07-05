@@ -1,6 +1,6 @@
 from streamlit_monaco_editor.render import render_component
 
-__version__ = "0.1.4"
+__version__ = "0.1.5"
 
 
 def st_monaco(
